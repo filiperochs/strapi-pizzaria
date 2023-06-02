@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cardapios",
+  "info": {
+    "singularName": "cardapio",
+    "pluralName": "cardapios",
+    "displayName": "Cardapio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pizzas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pizza.pizza"
+    },
+    "bebidas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::bebida.bebida"
+    },
+    "combos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::combo.combo"
+    }
+  }
+}

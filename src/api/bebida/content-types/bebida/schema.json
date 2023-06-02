@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bebidas",
+  "info": {
+    "singularName": "bebida",
+    "pluralName": "bebidas",
+    "displayName": "Bebida",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "preco": {
+      "type": "float"
+    }
+  }
+}

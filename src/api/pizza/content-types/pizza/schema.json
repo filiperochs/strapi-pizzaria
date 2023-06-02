@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pizzas",
+  "info": {
+    "singularName": "pizza",
+    "pluralName": "pizzas",
+    "displayName": "Pizza",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sabor": {
+      "type": "string"
+    },
+    "tamanho": {
+      "type": "integer"
+    },
+    "preco": {
+      "type": "float"
+    }
+  }
+}

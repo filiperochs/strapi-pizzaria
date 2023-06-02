@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_item_combo_itens",
+  "info": {
+    "displayName": "itens"
+  },
+  "options": {},
+  "attributes": {
+    "bebidas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::bebida.bebida"
+    },
+    "pizzas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pizza.pizza"
+    }
+  }
+}
