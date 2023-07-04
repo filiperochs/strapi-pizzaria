@@ -20,7 +20,7 @@
     "sabores": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::bebida.bebida"
+      "target": "api::sabor.sabor"
     }
   }
 }
