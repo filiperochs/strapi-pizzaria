@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sabors",
+  "info": {
+    "singularName": "sabor",
+    "pluralName": "sabors",
+    "displayName": "Sabor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "preco": {
+      "type": "float"
+    }
+  }
+}
