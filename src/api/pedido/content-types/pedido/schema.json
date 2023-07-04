@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "combos",
+  "collectionName": "pedidos",
   "info": {
-    "singularName": "combo",
-    "pluralName": "combos",
-    "displayName": "Combo",
+    "singularName": "pedido",
+    "pluralName": "pedidos",
+    "displayName": "Pedido",
     "description": ""
   },
   "options": {
@@ -20,7 +20,12 @@
     "sabores": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::bebida.bebida"
+      "target": "api::sabor.sabor"
+    },
+    "combos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::combo.combo"
     }
   }
 }
