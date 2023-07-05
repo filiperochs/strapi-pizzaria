@@ -6,15 +6,14 @@ export default {
     ctx.send(
       fs.readFileSync(
         path.resolve(
-          __dirname,
-          "..\\..\\..\\extensions\\documentation\\documentation\\1.0.0\\full_documentation.json"
+          "dist\\src\\extensions\\documentation\\documentation\\1.0.0\\full_documentation.json"
         ),
         "utf8"
       )
     );
   },
 };
-
+// dist\src\extensions\documentation\documentation\1.0.0\full_documentation.json
 // fs.readFileSync(
 //   "..\\..\\..\\extensions\\documentation\\documentation\\1.0.0\\full_documentation.json",
 //   "utf8"
