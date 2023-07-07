@@ -21,6 +21,16 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::sabor.sabor"
+    },
+    "foto": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
