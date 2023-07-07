@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enderecos",
+  "info": {
+    "singularName": "endereco",
+    "pluralName": "enderecos",
+    "displayName": "Endereco"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Rua": {
+      "type": "string"
+    },
+    "CEP": {
+      "type": "string"
+    },
+    "Numero": {
+      "type": "string"
+    },
+    "Complemento": {
+      "type": "string"
+    },
+    "Estado": {
+      "type": "string"
+    },
+    "bairros": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::bairro.bairro"
+    }
+  }
+}
