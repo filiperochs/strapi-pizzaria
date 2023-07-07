@@ -26,6 +26,9 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::combo.combo"
+    },
+    "precoTotal": {
+      "type": "float"
     }
   }
 }
