@@ -11,25 +11,22 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Rua": {
+    "rua": {
       "type": "string"
     },
-    "CEP": {
+    "numero": {
       "type": "string"
     },
-    "Numero": {
+    "complemento": {
       "type": "string"
     },
-    "Complemento": {
-      "type": "string"
-    },
-    "Estado": {
-      "type": "string"
-    },
-    "bairros": {
+    "bairro": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "api::bairro.bairro"
+    },
+    "cep": {
+      "type": "string"
     }
   }
 }
