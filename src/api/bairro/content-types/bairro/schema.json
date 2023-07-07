@@ -13,7 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "nome": {
-      "type": "text"
+      "type": "string"
     }
   }
 }
